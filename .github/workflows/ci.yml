@@ -12,7 +12,7 @@ jobs:
       - name: Show dir contents
         shell: bash
         run: |
-          cd themes
+          cd themes/blowfish
           ls -la
 
       - name: Generate Website
