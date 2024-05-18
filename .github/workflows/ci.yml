@@ -8,12 +8,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       
-      - name: Show dir contents
-        shell: bash
-        run: |
-          cd themes/blowfish
-          ls -la
+      # - name: Show dir contents
+      #   shell: bash
+      #   run: |
+      #     cd themes/blowfish
+      #     ls -la
 
       - name: Generate Website
         shell: bash
