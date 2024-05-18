@@ -6,8 +6,8 @@ jobs:
   build-site:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      # - name: Checkout Repository
+      #   uses: actions/checkout@v4
       
       - name: Generate Website
         shell: bash
