@@ -16,6 +16,5 @@ jobs:
       
       - name: Save Artifacts
         uses: actions/upload-artifact@v4
-          name: static-site
           path: ./public/
           overwrite: true
