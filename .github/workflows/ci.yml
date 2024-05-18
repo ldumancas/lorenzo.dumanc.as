@@ -12,6 +12,7 @@ jobs:
       - name: Show dir contents
         shell: bash
         run: |
+          cd themes
           ls -la
 
       - name: Generate Website
