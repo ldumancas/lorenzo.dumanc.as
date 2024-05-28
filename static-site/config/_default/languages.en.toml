@@ -16,7 +16,7 @@ title = "Under Construction"
 [author]
   name = "Lorenzo Dumancas"
   image = "img/headshot.jpg"
-  headline = "Hello there."
+  headline = "Software Engineer in Infrastructure, Automation, and DevOps"
 #   bio = "A little bit about you"
   links = [
     { email = "mailto:lorenzo@dumanc.as" },
