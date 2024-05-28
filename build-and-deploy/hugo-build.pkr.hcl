@@ -29,16 +29,16 @@ build {
     ]
   }
 
-post-processors {
-  post-processor "docker-tag" {
-    repository = "ldumancas/hugo-build"
-    tags       = ["0.1", "latest"]
-  }
+  post-processors {
+    post-processor "docker-tag" {
+      repository = "ldumancas/hugo-build"
+      tags       = ["0.1", "latest"]
+    }
 
-  post-processor "docker-push" {
-      login = true
-      login_username = ""
-      login_password = ""
+    post-processor "docker-push" {
+        login = true
+        login_username = ""
+        login_password = ""
+    }
   }
-}
 }
