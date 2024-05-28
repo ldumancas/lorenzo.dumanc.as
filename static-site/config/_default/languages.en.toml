@@ -15,7 +15,7 @@ title = "Under Construction"
 
 [author]
   name = "Lorenzo Dumancas"
-  # image = "img/headshot.jpg"
+  image = "img/headshot.jpg"
   headline = "Hello there."
 #   bio = "A little bit about you"
   links = [
@@ -32,7 +32,7 @@ title = "Under Construction"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+    { github = "https://github.com/ldumancas" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
