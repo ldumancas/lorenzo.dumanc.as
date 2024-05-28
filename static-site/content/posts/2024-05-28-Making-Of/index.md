@@ -1,6 +1,6 @@
 +++
 title = 'The Making-Of'
-date = 2024-01-14T07:07:07+01:00
+date = 2024-05-28
 draft = false
 +++
 
@@ -71,7 +71,8 @@ jobs:
       - name: Generate Website
         shell: bash
         run: |
-          docker run -v $PWD/static-site:/mnt ldumancas/hugo-build:latest
+          docker run -v $PWD/static-site:/mnt \
+          ldumancas/hugo-build:latest
       
       - name: Save Artifacts
         uses: actions/upload-artifact@v4
@@ -119,7 +120,8 @@ build {
 
   provisioner "shell" {
     inline = [
-        "apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo",
+        "apk add --no-cache \
+        --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo",
         "mkdir /mnt/working"
     ]
   }
