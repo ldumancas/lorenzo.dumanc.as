@@ -37,9 +37,8 @@ post-processors {
 
   post-processor "docker-push" {
       login = true
-      login_username = "ldumancas"
-      login_password = "o#f^&7wZ7lzm"
-    //   login_server = "https://hub.docker.com/"
+      login_username = ""
+      login_password = ""
   }
 }
 }
