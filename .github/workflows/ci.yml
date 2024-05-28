@@ -20,10 +20,10 @@ jobs:
       - name: Generate Website
         shell: bash
         run: |
-          docker run -v $PWD:/mnt ldumancas/hugo-build:latest
+          docker run -v $PWD/static-site:/mnt ldumancas/hugo-build:latest
       
       - name: Save Artifacts
         uses: actions/upload-artifact@v4
         with:
-          path: ./public/
+          path: ./static-site/public/
           overwrite: true
